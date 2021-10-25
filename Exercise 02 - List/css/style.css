@@ -1,0 +1,21 @@
+div.orederList>p.text.blue {
+  text-decoration: underline;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.orederList>p.text.blue,
+ul.blue {
+  color: blue;
+}
+
+div.unorederList>p.red,
+ol.red {
+  color: red;
+}
+
+div.unorederList>p.green,
+ul.green {
+  color: green;
+  list-style-type: square;
+}
