@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Standards for Html 5 -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Search Engines -->
+  <!-- Website description -->
+  <meta name="description" content="This is my website description">
+  <!-- Describe page content for search engines -->
+  <meta name="keywords" content="Web Development, Web Design, Web Practice">
+  <!-- Do not index or follow page -->
+  <meta name="robots" content="NOINDEX, NOFOLLOW">
+  <!-- Website Title -->
+  <title>Exercise 05 - Form</title>
+  <!-- Website Favicon -->
+  <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico" />
+  <!-- External Css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/78a98257df.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <h1><span class="purple">Register</span> Form</h1>
+  </header>
+  <form action="#">
+    <div class="container-rel">
+      <button class="reset-input" type="reset" value="reset">Reset</button>
+    </div>
+    <h2><span class="purple">01</span></h2>
+    <h2 class="sub-title">Account Info</h2>
+    <div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" maxlength="25" placeholder="Your email..">
+    </div>
+    <div>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" maxlength="25" placeholder="Your password..">
+    </div>
+    <div>
+      <label for="retner-password">Retner Password</label>
+      <input type="password" id="retner-password" name="retner-password" maxlength="25" placeholder="Your password again..">
+    </div>
+    <div class="container">
+      <a href="personal.html"><button class="rightBtn" type="button" value="Submit">Next</button></a>
+    </div>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
